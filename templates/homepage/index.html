@@ -1,0 +1,424 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+{% block cssblock %}
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/animate.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/aos.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/ionicons.min.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css'%}">
+<link rel="stylesheet" href="{% static 'css/jquery.timepicker.css'%}">
+
+
+<link rel="stylesheet" href="{% static 'css/flaticon.css'%}">
+<link rel="stylesheet" href="{% static 'css/icomoon.css'%}">
+<link rel="stylesheet" href="{% static 'css/style.css'%}">
+{% endblock %}
+
+{% block contentblock %}
+<div class="goto-here">
+    <!-- Nav -->
+    <section id="home-section" class="hero">
+		  <div class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image: url(https://live.staticflickr.com/65535/51429372112_ed4cfe7dc4_o.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+	            <div class="col-md-12 ftco-animate text-center">
+	              <h1 class="mb-2">Chuyên cung cấp các loại rau &amp; trái cây</h1>
+	              <h2 class="subheading mb-4">Chúng tôi chuyên vận chuyển các loại rau và trái cây công nghiệp</h2>
+	              <p><a href="/product" class="btn btn-primary">Xem chi tiết</a></p>
+	            </div>
+
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item" style="background-image: url(https://live.staticflickr.com/65535/51430132231_6bb4e80688_o.jpg);">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+	            <div class="col-sm-12 ftco-animate text-center">
+	              <h1 class="mb-2">100% Tươi &amp; Thức ăn công nghiệp</h1>
+	              <h2 class="subheading mb-4">Chuyên vận chuyển các loại rau công nghiệp &amp; trái cây</h2>
+	              <p><a href="#" class="btn btn-primary">Xem chi tiết</a></p>
+	            </div>
+
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section class="ftco-section">
+			<div class="container">
+				<div class="row no-gutters ftco-services">
+          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services mb-md-0 mb-4">
+              <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+            		<span class="flaticon-shipped"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Free ship</h3>
+                <span>Đơn hàng trên 100k</span>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services mb-md-0 mb-4">
+              <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+            		<span class="flaticon-diet"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Luôn tươi mới</h3>
+                <span>Đóng gói an toàn</span>
+              </div>
+            </div>    
+          </div>
+          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services mb-md-0 mb-4">
+              <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+            		<span class="flaticon-award"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Chất lượng cao</h3>
+                <span>Sản phẩm đạt chuẩn</span>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services mb-md-0 mb-4">
+              <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+            		<span class="flaticon-customer-service"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Hỗ trợ</h3>
+                <span>Hỗ trợ 24/7</span>
+              </div>
+            </div>      
+          </div>
+        </div>
+			</div>
+		</section>
+
+	<section class="ftco-section ftco-category ftco-no-pt">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-6 order-md-last align-items-stretch d-flex">
+								<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(https://live.staticflickr.com/65535/51429371987_8c51f89bde.jpg);">
+									<div class="text text-center">
+										<h2>Vegetables</h2>
+										<p>Bảo vệ sức khỏe cho mỗi gia đình</p>
+										<p><a href="/product" class="btn btn-primary">Mua ngay</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(https://live.staticflickr.com/65535/51429371967_f9ab358a63.jpg);">
+									<div class="text px-3 py-1">
+										<h2 class="mb-0"><a href="/raucu">Rau củ</a></h2>
+									</div>
+								</div>
+								<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(https://live.staticflickr.com/65535/51429371892_3fac020041.jpg);">
+									<div class="text px-3 py-1">
+										<h2 class="mb-0"><a href="/traicay">Trái cây</a></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(https://live.staticflickr.com/65535/51430131966_cc61459e47.jpg);">
+							<div class="text px-3 py-1">
+								<h2 class="mb-0"><a href="/nuocep">Nước ép</a></h2>
+							</div>		
+						</div>
+						<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(https://live.staticflickr.com/65535/51429371812_749c89e22a.jpg);">
+							<div class="text px-3 py-1">
+								<h2 class="mb-0"><a href="/cacloaihat">Hạt </a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section">
+    	<div class="container">
+				<div class="row justify-content-center mb-3 pb-3">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<span class="subheading">Sản phẩm nổi bật</span>
+            <h2 class="mb-4">Sản phẩm của chúng tôi</h2>
+            <p>Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+          </div>
+        </div>   		
+    	</div>
+    	<div class="container">
+    		<div class="row">
+				{% if view_index %}
+					{% for item in view_index %}
+						<div class="col-md-6 col-lg-3 ftco-animate">
+							<div class="product">
+								<a href="/detailproduct/{{item.Pr_id}}" class="img-prod"><img class="img-fluid" src="{{item.Pr_image}}" alt="Long Nguyen">
+									<span class="status">30%</span>
+									<div class="overlay"></div>
+								</a>
+								<div class="text py-3 pb-4 px-3 text-center">
+									<h3><a href="#">{{item.Pr_name}}</a></h3>
+									<div class="d-flex">
+										<div class="pricing">
+											<p class="price"><span class="mr-2 price-dc">{{item.Pr_price}}</span><span class="price-sale">70k</span></p>
+										</div>
+									</div>
+									<div class="bottom-area d-flex px-3">
+										<div class="m-auto d-flex">
+											<a href="/detailproduct/{{item.Pr_id}}" class="add-to-cart d-flex justify-content-center align-items-center text-center">
+												<span><i class="ion-ios-menu"></i></span>
+											</a>
+											<a href="javascript:void"  class="buy-now d-flex justify-content-center align-items-center mx-1" onclick="showModal('{{item.Pr_id}}')">
+												<span><i class="ion-ios-cart"></i></span>
+											</a>
+											<a href="#" class="heart d-flex justify-content-center align-items-center ">
+												<span><i class="ion-ios-heart"></i></span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				{% endif %}
+    		</div>
+          <div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					 <input type="text" id="quantity" name="quantity" class="font-number" value="1" min="1" max="100">
+					 <span class="menu__iconlist">
+						 <button type="button" class="quantity-left-minus btn btn__setting-icon "  data-type="minus" data-field="">
+						 <i class="ion-ios-remove "></i>
+						</button>
+						<button type="button" class="quantity-right-plus btn btn__setting-icon" data-type="plus" data-field="">
+						<i class="ion-ios-add"></i>
+					 </button>
+					</span>
+					 <p id="message_cart"></p>
+					 <p><button id="btn_add_cart" class="btn btn-black py-3 px-5 btn__setting">Thêm vào giỏ hàng</button></p>
+
+			</div>
+			</div>
+		  </div>
+
+    	</div>
+    	</section>
+	
+	<section class="ftco-section img" style="background-image: url(https://live.staticflickr.com/65535/51430132121_f208e191f2_o.jpg);">
+    	<div class="container">
+				<div class="row justify-content-end">
+          <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
+          	<span class="subheading">Giá tốt nhất cho bạn</span>
+            <h2 class="mb-4">Deal tốt ngày hôm nay</h2>
+            <p>Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+            <h3><a href="#">Rau dền</a></h3>
+            <span class="price">100k -> <a href="#">50k duy nhất hôm nay</a></span>
+            <div id="timer" class="d-flex mt-5">
+						  <div class="time" id="days"></div>
+						  <div class="time pl-3" id="hours"></div>
+						  <div class="time pl-3" id="minutes"></div>
+						  <div class="time pl-3" id="seconds"></div>
+						</div>
+          </div>
+        </div>   		
+    	</div>
+    	</section>
+
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+          	<span class="subheading">Feed back</span>
+            <h2 class="mb-4">Phản hồi từ khách hàng</h2>
+            <p>Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+          </div>
+        </div>
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel">
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(https://live.staticflickr.com/65535/51431103330_868727d572_o.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5 pl-4 line">Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam.</p>
+                    <p class="name">Duy</p>
+                    <span class="position">Marketing Manager</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(https://live.staticflickr.com/65535/51431103330_868727d572_o.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5 pl-4 line">Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+                    <p class="name">Khoa</p>
+                    <span class="position">Interface Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(https://live.staticflickr.com/65535/51430367953_35f1c2d961_o.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5 pl-4 line">Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+                    <p class="name">Thiện</p>
+                    <span class="position">UI Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(https://live.staticflickr.com/65535/51429372637_8e4ceca541_o.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5 pl-4 line">Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+                    <p class="name">Sơn</p>
+                    <span class="position">Web Developer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap p-4 pb-5">
+                  <div class="user-img mb-5" style="background-image: url(https://live.staticflickr.com/65535/51429372637_8e4ceca541_o.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text text-center">
+                    <p class="mb-5 pl-4 line">Các loại rau củ được nhập về từ những nông trại tốt nhất ở Việt Nam</p>
+                    <p class="name">Tiến</p>
+                    <span class="position">System Analyst</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   		</section>
+
+    <hr>
+
+
+      <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+        <div class="container py-4">
+          <div class="row d-flex justify-content-center py-5">
+            <div class="col-md-6">
+                <h2 style="font-size: 22px;" class="mb-0">Theo dõi chúng tôi</h2>
+                <span>Nhập email để cập nhật các sản phẩm mới nhất của chúng tôi và các ưu đãi đặc biệt</span>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <form action="#" class="subscribe-form">
+                <div class="form-group d-flex">
+                  <input type="text" class="form-control" placeholder="Nhập địa chỉ email">
+                  <input type="submit" value="Theo dõi" class="submit px-3">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+	<!-- footer -->
+    
+	
+</div>
+{% endblock %}
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+ 
+  {% block jsblock %}
+  <script src="{% static 'js/jquery.min.js'%}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js'%}"></script>
+  <script src="{% static 'js/popper.min.js'%}"></script>
+  <script src="{% static 'js/bootstrap.min.js'%}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js'%}"></script>
+  <script src="{% static 'js/jquery.waypoints.min.js'%}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js'%}"></script>
+  <script src="{% static 'js/owl.carousel.min.js'%}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+  <script src="{% static 'js/aos.js'%}"></script>
+  <script src="{% static 'js/jquery.animateNumber.min.js'%}"></script>
+  <script src="{% static 'js/bootstrap-datepicker.js'%}"></script>
+  <script src="{% static 'js/scrollax.min.js'%}"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="{% static 'js/google-map.js'%}"></script>
+  <script src="{% static 'js/main.js'%}"></script>
+  <script src="{% static 'js/cart.js'%}"></script>
+    <script>
+        $(document).ready(function(){
+
+	var quantitiy=0;
+	   $('.quantity-right-plus').click(function(e){
+
+			// Stop acting like a button
+			e.preventDefault();
+			// Get the field name
+			var quantity = parseInt($('#quantity').val());
+
+			// If is not undefined
+
+				$('#quantity').val(quantity + 1);
+
+
+				// Increment
+
+		});
+
+		 $('.quantity-left-minus').click(function(e){
+			// Stop acting like a button
+			e.preventDefault();
+			// Get the field name
+			var quantity = parseInt($('#quantity').val());
+
+			// If is not undefined
+
+				// Increment
+				if(quantity>1){
+				$('#quantity').val(quantity - 1);
+				}
+		});
+
+	});
+    </script>
+  {% endblock  %}
+  
+ 

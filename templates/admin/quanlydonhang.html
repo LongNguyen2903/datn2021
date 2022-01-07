@@ -1,0 +1,130 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/animate.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css'%}">
+<link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/aos.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/ionicons.min.css'%}">
+
+<link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css'%}">
+<link rel="stylesheet" href="{% static 'css/jquery.timepicker.css'%}">
+
+
+<link rel="stylesheet" href="{% static 'css/flaticon.css'%}">
+<link rel="stylesheet" href="{% static 'css/icomoon.css'%}">
+<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+<div class="content-item">
+    <h2 class="header-item">Quản lý đơn hàng</h2>
+    <div class="content-list">
+        <table class="table-custom" id="table_1">
+            <thead>
+                <tr>
+                    <th class="th-custom" colspan="2"><span style="font-size: 20px;
+                        display: flex;
+                        justify-content: center;">Đang chờ xác nhận</span> </th>
+                    </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+    <div class="content-list1">
+        <table class="table-custom" id="table_2">
+             <thead>
+            <tr class="tr-header">
+                <th class="th-custom" colspan="2"><span style="font-size: 20px;
+                    display: flex;
+                    justify-content: center;">Đang xử lý</span> </th>
+            </tr>
+             </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-list2">
+        <table class="table-custom" id="table_3">
+             <thead class="tr-header">
+            <tr class="tr-header">
+                <th class="th-custom" colspan="2"><span style="font-size: 20px;
+                    display: flex;
+                    justify-content: center;">Đang giao</span> </th>
+            </tr>
+             </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-list3">
+        <table class="table-custom" id="table_4">
+        <thead class="tr-header">
+            <tr class="tr-header">
+                <th class="th-custom" colspan="2"><span style="font-size: 20px;
+                    display: flex;
+                    justify-content: center;">Giao thành công</span> </th>
+            </tr>
+        </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="content-list4">
+        <table class="table-custom" id="table_5">
+        <thead class="tr-header">
+            <tr class="tr-header">
+                <th class="th-custom" colspan="2"><span style="font-size: 20px;
+                    display: flex;
+                    justify-content: center;">Đơn hàng hủy</span></th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+        <div id="detail_order" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+
+						<div class="modal-content">
+							<div class="modal-header" style="
+							background: #82ae46;
+							justify-content: center;">
+									<h2 id="od_id"></h2>
+							</div>
+
+							<div class="modal-body" id="detail_product">
+								<h3 id="od_time"></h3>
+								<p id="od_address"></p>
+								<p id="od_name"></p>
+								<p id="od_phone"></p>
+                                <button id="export" class="btn btn-outline-primary">Xuất hóa đơn</button>
+								<hr>
+								<div id="show_product"></div>
+							</div>
+							<div style='display: flex; justify-content: space-between; background-color: #e7e5c6;;
+										padding: 10px 16px 0px 16px;'>
+								 <p style="font-size:28px; font-weight:bold; color:#57cd30;">Tổng số tiền:</p>
+								 <p style="font-size:28px; font-weight:bold; color:#57cd30;" id="total"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+</div>
+
+<script  type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script  type="text/javascript" src="{% static 'js/action.js' %}"></script>
+
+{% endblock %}

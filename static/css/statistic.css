@@ -1,0 +1,41 @@
+.w3-color{
+    color: #fff!important;
+    background-color: #78aec8 !important;
+}
+
+.active {
+    background: blue !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 10px !important;
+    background-color: #78aec8;
+    color: white;
+    font-weight: bold;
+}
+.dt-buttons {
+    float:left;
+}
+
+.buttons-csv {
+    display:none;
+}
+
+.option_order{
+    display: inline-table;
+    width: 120px;
+    height: 100%;
+}
+
+.option_date{
+    display: inline-table;
+    width: 120px;
+    height: 100%;
+    margin-left:12px
+}
+
+#search_order_date{
+    position: relative;
+    top: 34px;
+    margin-left: 12px;
+}

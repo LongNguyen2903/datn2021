@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website ban thuc pham</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% block cssblock %}
+
+    {% endblock %}
+  </head>
+  <body>
+    {% include 'homepage/navbar.html' %}
+
+    {% block contentblock %}
+
+    {% endblock %}
+
+    {% include 'homepage/footer.html' %}
+
+    {% block jsblock %}
+
+    {% endblock  %}
+  </body>
+</html>
